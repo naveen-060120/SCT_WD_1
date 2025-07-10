@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.landing{
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    padding: 2%;
+}
+
+#logo{
+    flex: 2;
+    font-size: 2.5em;
+}
+
+nav{
+    flex: 1;
+    display: flex;
+}
+
+nav a{
+    flex: 1;
+    font-size: 1.25em;
+    height: 2px;
+    padding: 3vh;
+}
+
+nav a:hover{
+    color: red;
+}
+
+#intro{
+    text-align: center;
+    padding-inline-start: 4em ;
+    font-size: 20px;
+}
+
+#b1:hover{
+    color: red;
+}
+
+#b2:hover{
+    color: red;
+}
+
+.Buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    row-gap: 20px;
+    column-gap: 80px;
+    flex-wrap: wrap;
+}
+
+#b1{
+    background-color: aqua;
+    border-color: aqua;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#b2{
+    background-color: aqua;
+    border-color: aqua;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#s1{
+    background-color: white;
+}
+
+#name_mail{
+    padding-inline-start: 30em;
+    border-radius: 10px;
+}
+
+#age_mobile{
+    padding-inline-start: 30em;
+    border-radius: 10px;
+}
+
+#Duration{
+    padding-inline-start: 30em;
+}
+
+#Contact{
+    font-size: 18px;
+}
+
+.internship-section {
+    padding: 40px 10%;
+    background-color: #eaf6ff;
+    color: #000;
+}
+
+.internship-section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.internship-list {
+    list-style: none;
+    padding-left: 0;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.internship-list li::before {
+    content: "✔ ";
+    color: green;
+    font-weight: bold;
+}
+
+#submit{
+    background-color: aqua;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#submit:hover{
+    color: red;
+}
